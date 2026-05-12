@@ -3,6 +3,8 @@ This is a simple full-stack project that connects to the **eBay Inventory API (S
 
 It demonstrates how to integrate backend API calls with a frontend UI using Flask, HTML, CSS, and JavaScript.
 
+A long-lived refresh token is also used in this project to automatically renew the eBay access token when it expires, so the token does not need to be manually re-authenticate each time.
+
 ---
 
 ## How It Works
